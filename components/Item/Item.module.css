@@ -1,0 +1,60 @@
+.container {
+    border-radius: 15px;
+    background-color:#f0eee9;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 5%);
+    display: grid;
+    grid-template-columns: 90px auto 100px;
+    align-self: center;
+    font-size: 12;
+    grid-template-areas: 
+                "icon name rate"
+                "icon code rate";
+    margin: 20px;
+    padding: 0 10px 0 10px;
+    
+}
+
+.container * {
+    margin: 0;
+}
+
+.container h1 {
+    font-size: 18px;
+}
+
+
+.rate {
+    align-self: center;
+    font-size: 16px;
+    grid-area: rate;
+}
+
+.icon {
+    align-self: center;
+    grid-area: icon;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.name {
+    align-self: center;
+    grid-area: name;
+}
+
+
+.name p {
+    font-size: 12px;
+}
+
+.code {
+    align-self: center;
+    grid-area: code;
+}
+
+.rank {
+    align-self: center;
+    grid-area: rank;
+}
